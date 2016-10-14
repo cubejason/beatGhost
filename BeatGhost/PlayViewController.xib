@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayViewController">
+            <connections>
+                <outlet property="labScore" destination="LQP-sX-Hy2" id="o4R-9C-Jvf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fhaa" translatesAutoresizingMaskIntoConstraints="NO" id="SBD-Lc-VOT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQP-sX-Hy2">
+                    <rect key="frame" x="46" y="57" width="69" height="34"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="69" id="G84-Hf-nfI"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="Q5u-RP-gZG"/>
+                        <constraint firstAttribute="height" constant="34" id="c6b-0A-dhL"/>
+                        <constraint firstAttribute="width" constant="69" id="jHZ-O4-5z5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="0.97254901960784312" green="0.98431372549019602" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LQP-sX-Hy2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="49" id="4iA-bq-nfM"/>
+                <constraint firstAttribute="bottom" secondItem="SBD-Lc-VOT" secondAttribute="bottom" id="JBz-W7-Dn9"/>
+                <constraint firstItem="SBD-Lc-VOT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YY2-mF-pVs"/>
+                <constraint firstItem="SBD-Lc-VOT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="e3M-DK-eeg"/>
+                <constraint firstItem="LQP-sX-Hy2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="57" id="mch-FE-b8z"/>
+                <constraint firstItem="LQP-sX-Hy2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="38" id="nca-Vn-2Sf"/>
+                <constraint firstItem="LQP-sX-Hy2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="46" id="nkS-9k-die"/>
+                <constraint firstAttribute="trailing" secondItem="SBD-Lc-VOT" secondAttribute="trailing" id="zp6-71-3xe"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="323.5" y="408.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fhaa" width="640" height="960"/>
+    </resources>
+</document>
